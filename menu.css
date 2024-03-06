@@ -1,0 +1,155 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {margin:0;}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f5f7f5;
+  position: fixed;
+  top: 0;
+  height: 50px;
+  width: 100%;
+  margin-left: 60px;
+  display: fixed;
+  z-index: 3;
+  border-bottom: 5px solid transparent;
+}
+
+li {
+  float: left;
+  width: 100px;
+  padding: 14px 0;
+  text-align: center;
+  font-size: 17px;
+}
+
+#epd1 {
+    width: 150px;
+}
+
+#epd2 {
+    width: 200px;
+}
+
+#epd3{
+    width: 225px;
+}
+
+li a {
+  display: block;
+  color: rgb(2, 2, 2);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: all 0.3s ease-in;
+}
+
+li a:hover:not(.active) {
+  font-size: 20px;
+  text-decoration: underline orange;
+}
+
+.logo {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0; 
+    padding: 0; 
+    z-index: 4;
+}
+
+#logo {
+    margin: 0;
+    padding: 0;
+    height: 80px;
+    width: 80px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    position: relative;
+}
+
+#rolls h1{
+    margin-top: 80px;
+    padding-left: 20px;
+    text-decoration: underline orange;
+    font-size: 30px;
+}
+
+#veg-pizza h1{
+    margin-top: 80px;
+    padding-left: 20px;
+    text-decoration: underline orange;
+    font-size: 30px;
+}
+
+#non-veg-pizza h1{
+    margin-top: 80px;
+    padding-left: 20px;
+    text-decoration: underline orange;
+    font-size: 30px;
+}
+
+#fries h1{
+    margin-top: 80px;
+    padding-left: 20px;
+    text-decoration: underline orange;
+    font-size: 30px;
+}
+
+#section-one {
+    background-color: #ffffff; 
+    margin-top: 15px;
+}
+
+#section-one .wrapper {
+    padding: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+#section-one-img {
+    max-width: 250px;
+    border: 3px solid white;
+    border-radius: 50%;
+    margin-left: 15px; 
+    margin-right: 15px;
+}
+
+#section-one .text-box {
+    max-width: 70%; 
+}
+
+#section-one .text-box h2 {
+    font-size: 30px;
+}
+
+#section-one .text-box p {
+    font-size: 20px;
+}
+
+#btn {
+    width: 96%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ffa200; 
+    color: white; 
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    justify-content: center;
+}
+  
+#btn:hover {
+    background-color: #ff5e00;
+}
